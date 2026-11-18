@@ -1,0 +1,15 @@
+return {
+    {
+        "dkarter/bullets.vim",
+        ft = { "markdown", "text", "gitcommit" },
+    },
+    {
+        "MeanderingProgrammer/render-markdown.nvim",
+        ft = { "markdown" },
+        dependencies = {
+            "nvim-treesitter/nvim-treesitter",
+            "nvim-mini/mini.icons",
+        },
+        opts = {},
+    }
+}
